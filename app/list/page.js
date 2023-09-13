@@ -12,13 +12,14 @@ export default function List() {
     return (
         <div>
           <h4 className="title"> 상품목록 </h4>
-            {/* <span>{수량[0]}</span>
+
+            {
+                            /* <span>{수량[0]}</span>
             <button onClick={() => {
                 let copy = [...수량];
                 copy[0] ++;
                 수량변경(copy);
-            }}> + </button> */}
-            {
+            }}> + </button> */
                 상품.map((a, i) => {
                     return (
                         <div className="food" key={i}>
